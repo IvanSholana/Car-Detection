@@ -8,7 +8,17 @@ This repository contains code for training a YOLOv8 model for car detection usin
 ## Motivation 🚀
 The motivation behind this project stems from the need for robust and efficient car detection systems in various domains, including transportation, public safety, and urban planning. By leveraging the power of deep learning and the YOLOv8 architecture, we aim to provide a solution that can accurately detect cars in diverse environments and lighting conditions, paving the way for safer and more efficient transportation systems.
 
-## Usage 📋
+## Installation
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/yourusername/yolov8-car-detection.git
+    cd yolov8-car-detection
+    ```
+2. Install the required packages:
+    ```bash
+    pip install ultralytics==8.0.196 roboflow==1.1.27
+    ```
+## Usage
 1. Set up your Roboflow account and generate an API key.
 2. Replace `'YOUR_API_KEY'`, `'WORKSPACE'`, and `'PROJECT'` with your actual Roboflow API key, workspace name, and project name respectively in the code.
 3. Run the code to download the dataset from Roboflow, preprocess it, and train the YOLOv8 model.
